@@ -94,7 +94,7 @@ export default function Navbar() {
             className="hidden md:flex gap-1.5 border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground"
             data-testid="button-download-resume"
           >
-            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Niteesh_Pal_Resume.pdf">
+            <a href={`${import.meta.env.BASE_URL}Niteesh_Pal_SWE.pdf`} download="Niteesh_Pal_Resume.pdf">
               <Download className="h-3.5 w-3.5" />
               Resume
             </a>
@@ -122,7 +122,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href={`${import.meta.env.BASE_URL}resume.pdf`}
+            href={`${import.meta.env.BASE_URL}Niteesh_Pal_SWE.pdf`}
             download="Niteesh_pal_resume.pdf"
             className="flex items-center gap-2 mt-2 px-3 py-2.5 rounded-md text-sm font-medium text-primary border border-primary/50 hover:bg-primary hover:text-primary-foreground transition-colors"
           >

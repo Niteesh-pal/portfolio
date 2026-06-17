@@ -73,7 +73,7 @@ export default function Hero() {
             className="rounded-full gap-2 border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground"
             data-testid="button-download-resume-hero"
           >
-            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download="Niteesh_Pal_Resume.pdf">
+            <a href={`${import.meta.env.BASE_URL}Niteesh_Pal_SWE.pdf`} download="Niteesh_Pal_Resume.pdf">
               <Download className="h-4 w-4" />
               Resume
             </a>
